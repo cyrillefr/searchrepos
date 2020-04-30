@@ -5,6 +5,8 @@ class ReposController < ApplicationController
   def index; end
 
   def search
+    # IMPORTANT: search_repos does not retrieve
+    # private repos by default
     raw = @client.search_repos(params[:q], { page: params[:page] })
     total_count = raw[:total_count]
     @repos = Kaminari.paginate_array(
