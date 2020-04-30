@@ -8,7 +8,6 @@ A simple page with a simple form to display paginated results. With some Ajax in
 
 ## install of the web app
 - classically: bundle install
-- Docker: cd path/to/mystery_folder then docker-compose up
 
 ### start of the web app
 - rails s
