@@ -1,0 +1,12 @@
+<nav class="navbar navbar-light bg-light">
+<%= form_with(url: search_path, method: 'get', class: 'form-inline mt-2 mt-md-0') do %>
+  <%= text_field_tag(:q, nil, placeholder: 'Search' ) %>
+  <%= submit_tag("Search") %>
+<% end %>
+</nav>
+<hr>
+<main class='container'>
+  <div class='jumbotron'>
+    <div id = 'list_repos'></div>
+  </div>
+</main>

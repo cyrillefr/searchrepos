@@ -1,0 +1,6 @@
+Style/Documentation:
+  Exclude: 
+    - app/controllers/repos_controller.rb
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - config/routes.rb
