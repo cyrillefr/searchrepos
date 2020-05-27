@@ -1,8 +1,0 @@
-<% if @repos.size > 0 %>
-<% @repos.each do |repo| %>
-  <%= link_to nil, repo.owner['url'] %><br/>
-  <%= repo.description %><br/>
-<% end %>
-<br/>
-<%= paginate @repos, remote: true %>
-<% end %>
