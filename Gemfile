@@ -6,7 +6,7 @@ ruby '3.2.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 7.0'
 # Use Puma as the app server
-gem 'puma', '~> 4.3'
+gem 'puma', '>= 5.6.9'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -36,7 +36,7 @@ gem 'octokit', '~> 4.0'
 gem 'kaminari'
 
 # Front end
-gem 'bootstrap', '~> 4.4.1'
+gem 'bootstrap', '>= 5.0.0'
 
 # Needed by bootstrap
 gem 'jquery-rails'
